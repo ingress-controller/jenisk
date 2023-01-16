@@ -5,7 +5,6 @@ pipeline {
             steps {
                 sh 'echo "HELLO WORLD"'
                 sh '''
-                    chmod 755 ./kus.sh
                     ./kus.sh
                 '''
             }
