@@ -7,6 +7,7 @@ pipeline {
                 sh '''
                     chmod 755 ./kus.sh
                     ./kus.sh
+                    echo "KUSSS"
                 '''
             }
         }
