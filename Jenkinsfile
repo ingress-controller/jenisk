@@ -4,9 +4,8 @@ pipeline {
         stage('YELL') {
             steps {
                 sh 'echo "HELLO WORLD"'
-                sh '''
-                    ./kus.sh
-                '''
+                sh chmod 755 ./kus.sh
+                sh ./kus.sh
             }
         }
     }
