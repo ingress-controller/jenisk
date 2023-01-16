@@ -1,5 +1,5 @@
 pipeline {
-    agent jnlp-slave
+    agent any
     stages {
         stage('YELL') {
             steps {
