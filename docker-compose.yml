@@ -1,5 +1,0 @@
-version: '3.6'
-services:
-  service_one:
-    container_name: test_service
-    image: ubuntu:22.04
